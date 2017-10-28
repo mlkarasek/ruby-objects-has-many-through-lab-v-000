@@ -11,7 +11,10 @@ def appointments
   @appointments
 end 
 
-  def patients 
-    @appointments.collect do |patients|
-      
+  def patients
+    self.appointments.collect do |appointment|
+      appointment.patient 
+    end 
   end 
+
+  end
