@@ -19,6 +19,6 @@ end
     self.appointments.collect do |appointment|
       appointment.patient
     end
-  end 
+  end
 
   end
