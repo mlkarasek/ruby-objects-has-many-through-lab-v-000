@@ -17,14 +17,14 @@ class Genre
 
   def artists
     @songs.collect do |song|
-      song.artist = self 
+      song.artist = self
   end
 end
 
-def genres 
+def genres
   self.songs.collect do |song|
-    song.genre 
-  end 
+    song.genre
+  end
 end 
 
 end
